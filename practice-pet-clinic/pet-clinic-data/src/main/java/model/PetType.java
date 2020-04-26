@@ -1,4 +1,4 @@
-package com.spring.practicepetclinic.model;
+package model;
 
 public class PetType {
 

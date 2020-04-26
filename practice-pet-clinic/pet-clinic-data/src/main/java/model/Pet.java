@@ -1,4 +1,4 @@
-package com.spring.practicepetclinic.model;
+package model;
 
 import java.time.LocalDate;
 
@@ -15,7 +15,7 @@ public class Pet {
     public void setBirthDate(LocalDate birthDate) {
         this.birthDate = birthDate;
     }
-    
+
     public PetType getPetType() {
         return petType;
     }

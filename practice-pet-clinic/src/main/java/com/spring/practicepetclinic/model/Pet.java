@@ -6,8 +6,16 @@ public class Pet {
 
     private PetType petType;
     private Owner owner;
-    private LocalDate localDate;
+    private LocalDate birthDate;
 
+    public LocalDate getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
+    }
+    
     public PetType getPetType() {
         return petType;
     }
@@ -24,11 +32,5 @@ public class Pet {
         this.owner = owner;
     }
 
-    public LocalDate getLocalDate() {
-        return localDate;
-    }
 
-    public void setLocalDate(LocalDate localDate) {
-        this.localDate = localDate;
-    }
 }
